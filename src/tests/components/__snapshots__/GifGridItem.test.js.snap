@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas GifGridItem should be match with snapshot 1`] = `
+<div
+  className="card animate__animated animate__backInDown"
+>
+  <h5
+    className="TituloImagen"
+  >
+    Titulo
+  </h5>
+  <img
+    alt="Titulo"
+    src="https://localhost/img.jpg"
+  />
+  <h5>
+    1
+  </h5>
+</div>
+`;

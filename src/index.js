@@ -5,6 +5,6 @@ import './index.css';
 import "animate.css";
 
 ReactDOM.render(
-  <GifExpertApp/>,
+  <GifExpertApp  />,
   document.getElementById('root')
 );

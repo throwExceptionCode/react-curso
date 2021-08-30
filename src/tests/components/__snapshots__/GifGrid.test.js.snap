@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas con GifGrid should ber match with snapshot 1`] = `
+<Fragment>
+  <li>
+    <div
+      className="card-grid"
+    >
+      <h3
+        className="title-search"
+      >
+         
+        got
+         
+      </h3>
+      Cargando
+      <br />
+    </div>
+  </li>
+</Fragment>
+`;
+
+exports[`Pruebas con GifGrid should ber show img items useFetch 1`] = `
+<Fragment>
+  <li>
+    <div
+      className="card-grid"
+    >
+      <h3
+        className="title-search"
+      >
+         
+        got2
+         
+      </h3>
+      <br />
+      <GifGridItem
+        id={1}
+        key="1"
+        title="img.title"
+        url="img.images.downsized_medium.url"
+      />
+      <GifGridItem
+        id={2}
+        key="2"
+        title="img.title"
+        url="img.images.downsized_medium.url"
+      />
+    </div>
+  </li>
+</Fragment>
+`;

@@ -1,4 +1,5 @@
 import React from 'react';//, { useState,useEffect }
+import PropTypes from 'prop-types';
 import { useFetchGifs } from '../hooks/useFechGifts';
 //import { getGif } from '../helpers/getGifs';
 import { GifGridItem } from './GifGridItem';
@@ -12,9 +13,6 @@ const GifGrid = ({ category }) => {
     },[category])*/
     //<h2>{conteo}</h2>
     //<button onClick={ () => setconteo( conteo + 1 ) } >+</button>
-    
-    
-    
     //getGif
 
     useFetchGifs();
@@ -39,4 +37,8 @@ const GifGrid = ({ category }) => {
     )
 }
 
-export default GifGrid
+export default GifGrid;
+
+GifGrid.propTypes={
+    category: PropTypes.string.isRequired,
+};
